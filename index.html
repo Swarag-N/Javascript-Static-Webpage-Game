@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="colorGame.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:700i&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="jumbotron jumbotron-fluid mb-0 bg-primary text-white">
+	 	<div class="container">
+	 	 	<h1 class="display-4">RGB Color Game</h1>
+	 	 	<p class="lead">This is an Colour Guess game
+	 	 		Now guess this <span id="pColor">RGB(000, 000, 000)</span>
+	 	 	</p>
+	 	</div>
+	</div>
+
+	<h2 class="bg-warning d-flex">
+		<div class="container justify-content-center">
+			<button id="regame">New Game</button>
+			<span id="status"></span>
+			<button id="Easy">Easy</button>
+			<button id="Hard" class="select">Hard</button>
+		</div>
+	</h2>
+
+	<div class="container" id="maxSize">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>
+	<script type="text/javascript" src="colorGame.js"></script>
+</body>
+</html>

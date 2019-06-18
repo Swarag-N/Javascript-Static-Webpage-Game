@@ -1,0 +1,58 @@
+.square{
+	/*border: red 1px solid;*/
+	/*background-color: yellow;*/
+	padding-bottom: 30%;
+	width: 30%;
+	float: left;
+	margin: 1.6%;
+	border-radius: 25%;
+	transition: background 1.0s;
+	-webkit-transition: background 1.0s;
+	-moz-transition: background 1.0s;
+}
+body{
+	background-color: #80C645;
+	font-family: 'Lato', sans-serif;
+}
+h2{
+	/*border: red 1px solid;*/
+	text-align: center;
+}
+#maxSize{
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.select{
+	background-color:#007bff;
+	margin-top: 0;
+	color: white;
+}
+
+#status{
+	color: white;
+	display: inline-block;
+	width: 20%;   
+}
+
+button{
+	border: none;
+	background: none;
+	color: #007bff;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+}
+
+button:hover{
+	color: white;
+	background-color: #007bff;
+	outline: none;
+}
+
+#pColor{
+	transition: background 1.0s;
+	-webkit-transition: background 1.0s;
+	-moz-transition: background 1.0s;
+	border-radius: 5%;
+}
